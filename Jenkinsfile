@@ -9,7 +9,7 @@ pipeline {
                     // permet de télécharger l'image docker voulu
                     // le conteneur devient l'agent que Jenkins va démarrer pour le stage "Build"
                     // /!\ il faut installer le plugin docker dans Jenkins.
-                    image 'python:3.10.0rc1-alpine3.14'
+                    image 'python:3.9'
                 }
             }
             steps {
